@@ -1,0 +1,6 @@
+framework module Pods_Omane_Flix_Omane_FlixUITests {
+  umbrella header "Pods-Omane Flix-Omane FlixUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

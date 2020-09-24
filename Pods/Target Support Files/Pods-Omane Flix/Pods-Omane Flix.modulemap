@@ -1,0 +1,6 @@
+framework module Pods_Omane_Flix {
+  umbrella header "Pods-Omane Flix-umbrella.h"
+
+  export *
+  module * { export * }
+}

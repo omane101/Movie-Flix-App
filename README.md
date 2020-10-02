@@ -16,6 +16,7 @@
 Details About Movies tableView            |  Movies displayed in collectionView
 :-------------------------:|:-------------------------:
 ![](https://i.imgur.com/7bHSXlH.gif)  |  ![](https://i.imgur.com/QReVsgo.gif)
+| ![](https://i.imgur.com/Y7UUC5d.gif)
 
 
 <img src="https://i.imgur.com/7bHSXlH.gif" width=250><br>

@@ -1,30 +1,37 @@
 //
-//  MovieDetailsViewController.swift
+//  HerosDetailsViewController.swift
 //  Omane Flix
 //
-//  Created by Mohamed Omane on 9/29/20.
+//  Created by Mohamed Omane on 9/30/20.
 //
 
 import UIKit
 import Alamofire
 
-class MovieDetailsViewController: UIViewController {
-
+class HerosDetailsViewController: UIViewController {
+    
     var movie: [String:Any]!
-    
+    // backdropView
     @IBOutlet weak var backdropView: UIImageView!
-    @IBOutlet weak var posterView: UIImageView!
-    @IBOutlet weak var synopsisLabel: UILabel!
     
+    //posterView
+    @IBOutlet weak var posterView: UIImageView!
+    
+    // synposisLabel
+    @IBOutlet weak var synposisLabel: UILabel!
+    
+    // titleLable
     @IBOutlet weak var titleLabel: UILabel!
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // text fields
         titleLabel.text = movie["title"] as? String
         titleLabel.sizeToFit()
-        synopsisLabel.text = movie["overview"] as? String
-        synopsisLabel.sizeToFit()
+        synposisLabel.text = movie["overview"] as? String
+        synposisLabel.sizeToFit()
         
         // images
         let baseURL = "https://image.tmdb.org/t/p/"
@@ -41,20 +48,10 @@ class MovieDetailsViewController: UIViewController {
         
         posterView.af.setImage(withURL: posterURL!)
         backdropView.af.setImage(withURL: backdropURL!)
-        
-        
-        
+
     }
     
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

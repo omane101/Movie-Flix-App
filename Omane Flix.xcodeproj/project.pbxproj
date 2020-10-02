@@ -22,6 +22,8 @@
 		93AF632D2523BBFD009F8657 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AF632C2523BBFD009F8657 /* MovieDetailsViewController.swift */; };
 		93AF63322523E0A5009F8657 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AF63312523E0A5009F8657 /* MovieGridViewController.swift */; };
 		93AF63372523F8CD009F8657 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AF63362523F8CD009F8657 /* MovieGridCell.swift */; };
+		93D8D6572524DB5D00431ABF /* HerosDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8D6562524DB5D00431ABF /* HerosDetailsViewController.swift */; };
+		93D8D65C2524EDF100431ABF /* TrailerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8D65B2524EDF100431ABF /* TrailerView.swift */; };
 		BF366A242FDA044143360588 /* Pods_Omane_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE004B3A7522A89F70F948A /* Pods_Omane_FlixTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,8 @@
 		93AF632C2523BBFD009F8657 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		93AF63312523E0A5009F8657 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		93AF63362523F8CD009F8657 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		93D8D6562524DB5D00431ABF /* HerosDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosDetailsViewController.swift; sourceTree = "<group>"; };
+		93D8D65B2524EDF100431ABF /* TrailerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerView.swift; sourceTree = "<group>"; };
 		B48B26C52011B2C6974CC80C /* Pods-Omane FlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omane FlixTests.release.xcconfig"; path = "Target Support Files/Pods-Omane FlixTests/Pods-Omane FlixTests.release.xcconfig"; sourceTree = "<group>"; };
 		DBE004B3A7522A89F70F948A /* Pods_Omane_FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omane_FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,9 +147,11 @@
 				93137280251AD9A7009C8E38 /* SceneDelegate.swift */,
 				93137282251AD9A7009C8E38 /* ViewController.swift */,
 				93137284251AD9A7009C8E38 /* Main.storyboard */,
+				93D8D65B2524EDF100431ABF /* TrailerView.swift */,
 				93AF63362523F8CD009F8657 /* MovieGridCell.swift */,
 				93AF63312523E0A5009F8657 /* MovieGridViewController.swift */,
 				93AF632C2523BBFD009F8657 /* MovieDetailsViewController.swift */,
+				93D8D6562524DB5D00431ABF /* HerosDetailsViewController.swift */,
 				9323810A251BB9E600CB6205 /* MovieCell.swift */,
 				93137287251AD9AB009C8E38 /* Assets.xcassets */,
 				93137289251AD9AB009C8E38 /* LaunchScreen.storyboard */,
@@ -421,7 +427,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D8D65C2524EDF100431ABF /* TrailerView.swift in Sources */,
 				93137283251AD9A7009C8E38 /* ViewController.swift in Sources */,
+				93D8D6572524DB5D00431ABF /* HerosDetailsViewController.swift in Sources */,
 				9313727F251AD9A7009C8E38 /* AppDelegate.swift in Sources */,
 				93AF632D2523BBFD009F8657 /* MovieDetailsViewController.swift in Sources */,
 				93AF63322523E0A5009F8657 /* MovieGridViewController.swift in Sources */,

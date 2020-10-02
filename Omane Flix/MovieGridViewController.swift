@@ -70,6 +70,16 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for: cell)!
+        
+        let movie = movies[indexPath.row]
+        
+        let detailsViewController = segue.destination as! HerosDetailsViewController
+        detailsViewController.movie = movie
+        collectionView.deselectItem(at: indexPath, animated: true)
+    }
     /*
     // MARK: - Navigation
 
